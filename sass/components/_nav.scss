@@ -1,0 +1,75 @@
+.nav-menu-bar{
+   
+    z-index:5;
+    
+    
+    &-inner{
+        
+        margin: 2rem 13rem; 
+        /*background: red;*/
+         width: 70%;
+        
+        
+        
+    }
+    
+    
+    &-list{
+        
+       list-style: none;
+        display: flex;
+        align-content: center;
+        justify-content: space-between;
+        font-size: 1.6rem;
+        
+    }
+    
+    & li{
+        
+        color: var(--color-fff);
+       display: flex;
+        align-content: center;
+        justify-content: center;
+        opacity:.8;
+        
+        @include respond(tab-port){
+            
+            
+            display:none;
+            
+        }
+        
+        
+                  @include respond(phone){
+        
+       display: none;
+         
+         
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        &:hover{
+            
+            border-bottom: var(--border-bottom);
+            
+            
+        }
+        
+    }
+    
+    
+  
+    
+    
+    
+    
+}

@@ -1,0 +1,111 @@
+ .ani-arrows-container{
+    
+    background: #0f1941;
+    bottom: 0;
+    
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    top: -12rem;
+    right: 0;
+
+    height: 650px;
+    position: relative;
+    margin-top: -70px;
+ @include respond(phone){
+      
+        height:auto;
+            
+            
+        }
+
+}
+
+div{
+    display: block;
+    
+}
+
+
+.ani-arrow{
+    
+-webkit-animation: arrows 6s 1.5s infinite;
+    animation: arrows 6s 1.5s infinite;
+    -webkit-transform: translateX(-110%);
+    will-change: transform;
+   
+}
+
+
+.ani-arrow-inner {
+    background: #e74536;
+    border-radius:4rem;
+    display: block;
+    height: 6rem;
+    margin-top: 12rem;
+    position: relative;
+    width: 25rem;
+}
+
+
+.ani-arrow-inner::before {
+    content: "";
+    top: -4.4rem;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+.ani-arrow-inner::before, .ani-arrow-inner::after {
+    background: #e74536;
+    border-radius: 2rem;
+    content: "";
+    height: 6rem;
+    position: absolute;
+    right: -1.3em;
+    width: 22rem;
+}
+
+.ani-arrow-inner::after {
+    right: -2.3rem;
+    top: 4.1rem;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
+}
+.ani-arrow-inner::before, .ani-arrow-inner::after {
+    background: #e74536;
+    border-radius: 4rem;
+    content: "";
+    height: 8rem;
+    position: absolute;
+    right: -2.3rem;
+    width: 20rem;
+}
+
+.ani-arrow-2 {
+    -webkit-animation-delay: 1.6s;
+    animation-delay: 1.6s;
+ 
+    
+
+    
+}
+.ani-arrow-2 .ani-arrow-inner, .ani-arrow-2 .ani-arrow-inner::before, .ani-arrow-2 .ani-arrow-inner::after {
+    background: #ffb511;
+}
+
+.ani-arrow-3 .ani-arrow-inner, .ani-arrow-3 .ani-arrow-inner::before, .ani-arrow-3 .ani-arrow-inner::after{
+    
+    background: #6BA5B4;
+    
+}
+
+.ani-arrow-3 {
+    
+   
+    
+     -webkit-animation-delay: 1.8s;
+    animation-delay: 1.8s;
+    
+}
+

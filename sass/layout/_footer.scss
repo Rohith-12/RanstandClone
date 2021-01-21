@@ -1,0 +1,87 @@
+.footer{
+    
+    
+    
+    background: #0f1941;
+    
+    
+    
+    
+    &-list{
+        
+       /*background: red;*/
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+       
+        align-content: space-around;
+        
+       /* padding-top: 5rem;
+        */
+           @include respond(phone){
+      
+        flex-direction: column;
+            
+        } 
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    &-lists{
+        
+        
+         position: relative;
+        
+        margin: 2rem;
+        list-style: none;
+     & h6{
+            color:var(--color-f7f5f0);
+            font-size: 1.6rem;
+            
+       
+        
+            
+            
+            
+        }
+        
+    }
+    
+    &-items{
+        
+        color:var(--color-d7d7);
+        
+         padding: 1.5rem;
+         font-size: 1.5rem;
+        
+        @include respond(phone){
+      
+        position: absolute;
+            top:-12rem;
+            opacity: 0;
+            visibility: hidden;
+            
+        } 
+      
+        
+        
+    }
+       
+    
+}

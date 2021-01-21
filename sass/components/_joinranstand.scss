@@ -1,0 +1,39 @@
+.joinranstand{
+    
+    background: var(--color-fff);
+    
+    
+    
+    &-caption{
+        
+        
+        color: var(--color-blue);
+        
+        
+    }
+    
+    
+   /* 
+    &-content{
+        
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    */
+    &-img{ 
+             
+       max-width: 100%;
+              
+          @include respond(phone){
+        
+       width:100%;
+        
+    }
+    
+    }
+
+}

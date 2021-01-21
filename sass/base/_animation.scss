@@ -1,0 +1,33 @@
+
+
+
+@keyframes arrows{
+
+0% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: translateX(-110%);
+    transform: translateX(-110%);
+}
+10% {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+    -webkit-transform: translateX(60%);
+    transform: translateX(60%);
+}
+85% {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+    -webkit-transform: translateX(65%);
+    transform: translateX(65%);
+}
+90% {
+    -webkit-transform: translateX(110%);
+    transform: translateX(110%);
+}
+100% {
+    -webkit-transform: translateX(150%);
+    transform: translateX(150%);
+}
+    
+}

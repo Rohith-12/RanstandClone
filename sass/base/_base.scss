@@ -1,0 +1,62 @@
+* , *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+html{
+        
+    font-size: 62.5%;
+    
+    
+    
+    
+        font-size: 62.5%;  // 1rem=10px 10px/16px =62.5% (16px is default that browser gives to us )
+      
+     @include respond(tab-land){
+        
+        
+        font-size: 56.25%;  //taking here 1rem=9px then 9/16=56.25%
+        
+    }
+    
+    
+     @include respond(tab-port){
+        
+        
+        font-size: 50%;  //taking here 1rem=8px then 8/16 =50% and also if padding is declared as padding:
+        
+    }
+  
+    
+    @include respond(phone){
+        
+        
+        font-size:  48%;
+        
+    }
+    
+     @include respond(big-desktop){
+        
+        
+        font-size:75%; //taking here 1rem=12px 12/16=75%;
+        
+    }
+    
+    
+     
+    
+ 
+}
+
+
+
+
+body{
+box-sizing: border-box;
+color:color-primary;
+font: 400 18px/1.2 'Graphik Web',Tahoma,sans-serif;
+-webkit-font-smoothing: antialiased;
+}

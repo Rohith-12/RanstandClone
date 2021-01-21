@@ -1,0 +1,55 @@
+.bttn{
+    
+        padding: 0 30px;
+    width: 40%;
+    background:var(--color-fff);
+        border: 1px solid var(--color-21);
+    border-radius: 3px;
+    height: 8rem;
+    
+    position: relative;
+   margin:3rem 5rem;
+    
+     margin: 1rem auto;
+    
+}
+
+
+.btn-prim{
+    
+   position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: var(--color-21);
+    font-size: 1.8rem;
+       
+}
+
+
+.btn-sec{
+    
+    
+    color: var(--color-fff);
+    
+}
+
+.bttn-sec{
+    
+    background: #E74536;
+    
+    border:1px solid var(--color-fff);
+    
+    
+    
+    
+    margin: 1rem auto;
+    
+    
+    
+    
+    
+    
+}

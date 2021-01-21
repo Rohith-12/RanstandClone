@@ -1,0 +1,49 @@
+.branch{
+    
+    
+    background:#6ba5b4;
+    
+      
+    
+    
+    &-innerbox{
+        
+        
+        background-image: url(/img/pins.svg);
+         background-position: 95% center;
+    background-repeat: no-repeat;
+    background-size: 30%;
+    padding-bottom: 70px;
+    padding-top: 70px;
+    position: relative;
+        height: auto;
+       
+      
+        
+        
+        
+    }
+    
+    
+    
+    &-box{
+        
+        
+        
+        
+       /* background: red;
+    */    width: 80%;
+        margin: 0 auto;
+        
+        
+    }
+    
+    &-para{
+        
+        
+        color:var(--color-fff);
+        font-size: 1.5rem;
+        margin-bottom: 4rem;
+    }
+    
+}

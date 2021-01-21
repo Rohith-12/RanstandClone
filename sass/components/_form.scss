@@ -1,0 +1,227 @@
+.form{
+    
+   
+    @include respond(phone){
+      
+        height: 100%;
+         
+        }
+    
+    
+    &-box{
+      
+        /*
+        background: red;
+*/        margin: -25rem auto;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+         z-index: 3;
+        position: relative;
+        
+        
+        
+        
+         @include respond(tab-port){
+       z-index: 1;  
+        width: 100%;
+            
+        }
+  
+        
+        
+        
+  
+         @include respond(phone){
+       z-index: 1;  
+        width: 100%;
+            
+        }
+  
+        
+    
+    }
+    
+    
+    &-heading{
+        
+        font-size: 8rem;
+        color: var(--color-fff);
+        letter-spacing: -4px;
+                @include respond(tab-port){
+      
+         
+        font-size: 7.5rem;
+    }
+        
+        
+        @include respond(phone){
+      
+         
+        font-size: 6rem;
+    }
+        
+        
+        
+        
+    }
+    
+    
+    &-innerbox{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+            @include respond(tab-port){
+      
+        
+        flex-direction: column;
+            width: 100%;
+        
+        padding: 5rem;
+        
+        
+        
+    }
+    }
+    
+    
+    &-input-elements{
+        
+        
+        
+        background: #fff;
+    border-radius: 2px;
+    font-size: 2rem;
+    height: 80px;
+    line-height: 80px;
+     border: 2px solid #d7d7d7;
+    color: #0f1941;
+    font: normal 16px/1.5 'Graphik Web',Tahoma,sans-serif;
+    letter-spacing: 0;
+    line-height: 25px;
+    min-height: 60px;
+    padding: 1.5rem 1.9rem 1.5rem;
+    transition: border-color .2s;
+    width: 100%;
+ 
+        
+        
+             @include respond(tab-port){
+      
+        
+        
+           margin:1rem;
+        
+        
+        
+        
+        
+    }
+        
+        @include respond(phone){
+      
+          padding: 1.1rem 1.5rem 1.1rem;
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    &-ele-2{
+        margin-left:.5rem;
+        width: 50%;
+        
+        
+        
+        
+        
+             @include respond(tab-port){
+      
+        
+        
+            width: 100%;
+        margin-left:0px;
+        
+        
+        
+        
+    }
+        
+        
+    }
+    
+    
+    &-icon{
+        
+        
+       
+        color: #0071CE;
+        font-size: 3.5rem;
+       position: absolute;
+       top:50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        
+    
+       
+        
+    }
+    
+    &-serach{
+         margin-left:.5rem;
+        width: 20%;
+    background: #f7f5f0;
+    border: 0;
+    display: block;
+        border-radius: 0;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 80px;
+        position: relative;
+        
+        
+        
+             @include respond(tab-port){
+      
+        
+        
+            width: 100%;
+            margin-left:0px;
+                margin-top: 1rem;
+        
+        
+        
+        
+    }
+        @include respond(phone){
+      
+        
+        width: 100%;
+            
+            
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+}

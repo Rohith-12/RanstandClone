@@ -1,0 +1,103 @@
+.workforce{
+    
+    color:var(--color-21);
+    
+    
+    
+    
+    &-innerbox{
+        
+        
+       /* background: red; */
+        margin: 5rem auto;
+        width:95%;
+        
+    }
+    
+    
+    
+    &-content{
+        
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+        
+        
+        
+        
+        
+              @include respond(phone){
+        
+                  
+                  flex-direction: column;
+        
+    }
+        
+        
+        
+        
+        
+    }
+    
+    &-branding{
+        
+        
+       max-width:100%;
+        
+        &-box{
+         padding: 5rem;
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+            
+            
+            
+            
+                @include respond(tab-port){
+      
+          flex-direction: column;
+        
+    }
+            
+            
+            
+        
+                  @include respond(phone){
+        
+      flex-direction: column;
+        
+    }
+            
+            
+            
+    }
+        
+        
+        
+        &-text{
+            /*color:var(--color-21);
+            */margin:3rem;
+            
+            width: 50%;
+            
+            &-heading{
+                
+                font-size: 1.8rem;
+                letter-spacing: 2px;
+                
+                
+            }
+            
+            &-para{
+                
+                font-size: 1.5rem;
+                
+                
+            }
+        }
+        
+    }
+    
+}
+

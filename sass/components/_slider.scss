@@ -1,0 +1,360 @@
+
+        
+ol,ul{
+  list-style:none;
+ 
+    
+}
+
+div#slider {
+    
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height:100%;
+  margin:20px auto 5px;
+    
+    
+    
+    
+         @include respond(tab-port){
+        
+                display: none;
+                      
+        
+    }
+    
+    
+    
+    
+    
+    
+         @include respond(phone){
+        
+                display: none;
+                      
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+ul#frontpage-slider {
+    width:1000%;
+    height: auto;
+    position: relative;
+}
+li.slider-image {
+    float: left;
+    -webkit-transition: all .7s ease;
+    transition: all .7s ease;
+    width:10%;
+    height: 100%;
+}
+li.slider-image img{
+      max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    -ms-interpolation-mode: bicubic;
+}
+.flex-control-paging{
+    
+    text-align:center;
+    z-index: 1111;
+    position: relative;
+   
+    
+    transform: translateY(-650%);
+}
+.flex-control-paging li {
+    display: inline;
+    margin: 0 10px;
+    
+    
+      @include respond(tab-port){
+        
+                display: none;
+                      
+        
+    }
+    
+    
+    
+         @include respond(phone){
+        
+                display: none;
+                      
+        
+    }
+    
+    
+    
+    
+    
+}
+.flex-control-paging li a{
+    display: inline-block;
+    background: #ccc;
+    height: 8px;
+    width: 8px;
+    text-indent: 200%;
+    overflow: hidden;
+    cursor: pointer;
+    -moz-border-radius: 1px;
+    -khtml-border-radius: 1px;
+    -webkit-border-radius: 1px;
+    border-radius: 50%;
+}
+.flex-control-paging li a:hover, .flex-control-paging li a.flex-active {
+    background: #0485EF;
+    
+    
+}
+ .list1{
+            
+            background-image: url(../img/6071%20-%20Slider%20banner%20for%20website-v2-02.png);
+            background-repeat: no-repeat;
+            height: 100%;
+            width: 100%;
+            
+        }   
+       
+        
+        .list2{
+            background-repeat: no-repeat;
+            background-image: url(../img/6071---Slider-banner-for-website-01a.png);
+             height: 100%;
+            width: 100%;
+            
+        }
+
+.list3{
+    
+    
+      background-repeat: no-repeat;
+            background-image: url(../img/Randstad_Atlanta-Kloubert-04-17_364.jpg);
+             height: 100%;
+            width: 100%;
+    
+    
+}
+
+
+.list4{
+    
+      background-repeat: no-repeat;
+            background-image: url(../img/099.jpg);
+             height: 100%;
+            width: 100%;
+    
+}
+
+
+.slider2-box{
+    
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+     width:32%;
+   /* height:auto; */
+}
+    
+    
+
+
+.slider-heading-0{
+    
+    color: var( --color-blue);
+    font-size:4.6rem;
+    letter-spacing:3px;
+    line-height: 1.1;
+    display: block;
+   
+    
+}
+
+.slider-para{
+     color: var( --color-blue);
+    margin-top: 3rem;
+    font-size: 2.5rem;
+  letter-spacing:3px;
+    
+    
+}
+
+#bttun-list4{
+    
+    border:0;
+   
+    
+}
+
+
+/*
+
+#newlist1{
+
+    
+    background: url(../img/6071%20-%20Slider%20banner%20for%20website-v2-02.png);
+     width:100%;
+    height: 100%;
+    
+    
+}
+
+
+#newlist2{
+    
+    
+        
+    background: url(../img/slider21.jpg);
+      height: 100%;
+     width: 100%;
+    background-repeat: no-repeat;
+    
+    
+    
+}
+
+#newlist3{
+    
+      background: url(../img/slider23.jpg);
+      height: 100%;
+     width: 100%;
+    background-repeat: no-repeat;
+    
+    
+}
+*/
+
+
+#newlist1{    
+   
+    position: relative;
+    
+    
+}
+
+#newlist2{
+    
+    
+     position: relative;
+}
+
+#newlist3{
+    
+     position: relative;
+    
+}
+
+
+.text-box{
+   @include halfcenter;
+  width: 50%;
+    z-index: 1111;
+     color:var(--color-blue);
+
+            
+                @include respond(tab-port){
+        
+               
+                        position:relative;
+                      top:0;
+                      left: 0;
+                      transform: none;
+                      width:auto;
+        
+    }
+        
+                  @include respond(phone){
+        
+                      position:relative;
+                      top:0;
+                      left: 0;
+                      transform: none;
+                      width:auto;
+                      
+        
+    }
+    
+
+    
+}
+
+
+
+
+.slider2-heading{
+    
+    font-size:4.5rem;
+   
+    
+}
+
+.slider2-para{
+    margin-top: 3rem;
+     font-size: 2.4rem;
+    font-weight: 400;
+    letter-spacing: 4px;
+  
+    
+}
+
+
+
+
+.slider2-img{
+    
+    
+    
+    
+                @include respond(tab-port){
+                    width: 100%;
+                      
+        
+    }
+    
+    
+    
+    
+    
+            @include respond(phone){
+width: 100%;
+                      
+        
+    }
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+/*
+.agency{
+    
+    height: 100%;
+    
+}
+.glide{
+    
+    
+    width:100%;
+    height: 100%;
+}
+*/
